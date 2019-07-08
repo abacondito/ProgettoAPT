@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Crea Scambio o Vendita</title>
+</head>
+<body>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+        crossorigin="anonymous"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- Optional JavaScript -->
+
+<script src="js/web3.min.js"></script>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item"><a class="btn btn-primary mx-1" href="./SelectHand.html">Crea/Unisci a Partita</a></li>
+            <li class="nav-item"><a class="btn btn-primary mx-1" href="./Game.html">Continua Partita</a></li>
+            <li class="nav-item"><a class="btn btn-primary mx-1" href="./NewCard.html">Ottieni Nuove Carte</a></li>
+            <li class="nav-item"><a class="btn btn-primary mx-1" href="./Collezione.html">Collezione</a></li>
+            <li class="nav-item"><a class="btn btn-primary mx-1" href="./Trade.html">Scambia/Vendi</a></li>
+        </ul>
+    </div>
+</nav>
+
+<h2 class="container"> Scegli la Carta da vendere/scambiare o autorizzare:</h2>
+<div class="row" id="cardRow">
+    <!-- published composition LOAD HERE -->
+</div><!-- container collezione-->
+
+<h2 class="container"> Carta Scelta</h2>
+<div class="container" id="slotCartaInput">
+    <!-- published composition LOAD HERE -->
+</div><!-- container CartaInInput-->
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-4" >
+
+            <!--Elementi per gli Scambi-->
+            <div>
+                <form action="">
+
+
+                    <button id="buttonOffer" type="button">Invia Offerta</button>
+                </form>
+            </div>
+
+            <div>
+                <form action="">
+                    <p>rispondi ad uno scambio</p>
+
+
+                    <div class="form-group" id="responseInputAddress">
+                        <label for="makerAddress">Address del maker:</label>
+                        <input class="form-control" id="makerAddress" type="text">
+                    </div>
+
+                    <button id="buttonResponse" type="button">Invia Risposta</button>
+                </form>
+            </div>
+
+            <div>
+                <div class="form-group">
+                    <button  id="confirmationButton" type="button" value="1">Conferma Scambio</button>
+                </div>
+
+            </div>
+
+            <div  id="offerRow">
+                <!-- published composition LOAD HERE -->
+            </div>
+
+
+        </div> <!--trade container-->
+
+
+        <div class="col-lg-4">
+
+            <!--Elementi per la vendita-->
+            <div>
+                <form action="">
+                    <p>Scegli la carta da vendere</p>
+                    <div class="form-group" id="inputSold">
+                        <label for="price">Prezzo:</label>
+                        <input class="form-control" id="price" type="text">
+                    </div>
+
+                    <button id="buttonSale" type="button">Invia la vendita</button>
+                </form>
+            </div>
+
+            <div>
+                <form action="">
+                    <p>rispondi ad una vendita</p>
+
+                    <div class="form-group" id="saleInputAddress">
+                        <label for="saleMakerAddress">Address del maker:</label>
+                        <input class="form-control" id="saleMakerAddress" type="text">
+                    </div>
+
+                    <button id="answerSale" type="button">Invia Risposta</button>
+                </form>
+            </div>
+
+            <div id="saleRow">
+                <!-- published composition LOAD HERE -->
+            </div>
+
+
+        </div> <!--sale container-->
+
+        <div class="col-lg-4">
+
+            <div>
+                <form action="">
+                    <p>Scegli la carta da autorizzare</p>
+                    <button id="buttonAuth" type="button">Invia l'autorizzazione</button>
+                </form>
+            </div>
+
+        </div> <!--approve container-->
+
+    </div>
+
+</div>
+
+
+
+
+
+<!--Template dell'offerta-->
+<div id="offerTemplate" style="display: none">
+    <!--    <div class="col-sm-5 col-md-9 col-lg-10">-->
+    <div class="col-lg-12">
+        <div class="panel-composition" value="">
+            <div class="panel-heading">
+                <h3 class="panel-title">Scambio</h3>
+            </div>
+            <div class="panel-body">
+                <strong>indirizzo offerente </strong>: <span class="composition-oAddress">indirizzo</span><br/>
+                <strong>Carta Offerente: </strong>:
+                <div class="container" id="slotCartaOfferente">
+                    <!-- spazio carda Offerente-->
+                </div>
+                <br/><br/>
+                <strong>indirizzo acquirente</strong>: <span class="composition-aAddress">indirizzo</span>
+                <strong>Carta Acquirente</strong>:
+                <div class="container" id="slotCartaAcquirente">
+                    <!-- spazio carda Acquirente-->
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Template della vendita-->
+<div id="saleTemplate" style="display: none">
+    <!--    <div class="col-sm-5 col-md-9 col-lg-10">-->
+    <div class="col-lg-12">
+        <div class="panel-composition" value="">
+            <div class="panel-heading">
+                <h3 class="panel-title">Vendita</h3>
+            </div>
+            <div class="panel-body">
+
+                <strong>Carta in Vendita: </strong>:
+                <div class="container" id="slotCartaInVendita">
+                    <!-- spazio carda in vendita-->
+                </div>
+                <strong>Prezzo (finney) </strong>: <span class="composition-price">indirizzo</span><br/>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--template della carta-->
+<div id="cardTemplate" style="display: none">
+
+    <li class="card" style="width:18rem;">
+        <!--<div class="panel panel-default panel-composition" value="">-->
+        <div class="panel-heading">
+            <h3 class="panel-title">Title of a composition</h3>
+        </div>
+        <div class="panel-body" id="panelBody">
+            <div class="bordo" >
+                <img class="composition-Img", id="cardImage", height="150", width="146", src="img/4.jpg">
+            </div>
+
+            <span class="composition-Attack">
+                <strong>Attacco</strong>: <span class="composition-ID">?</span>
+                <span class="composition-seed"> seed </span>
+            </span>
+
+            <img class="composition-Type", height="20", width="20" src="img/4.jpg">
+
+
+        </div>
+        <!--</div>-->
+    </li>
+
+</div>
+
+
+<script src="js/TradingDapp.js"></script>
+
+</body>
+</html>

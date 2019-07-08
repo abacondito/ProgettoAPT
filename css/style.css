@@ -1,0 +1,53 @@
+.row{
+    margin: 0 15px 0 15px;
+}
+
+.panel-body{
+    padding-top: 5px;
+}
+
+.panel-body{
+
+}
+
+.panel-title{
+    font-size: 14px;
+
+}
+
+.panel-heading{
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+.card{
+    margin: 5px 5px 5px 5px;
+    background: url("../backgroundTextures/cardtexture5.jpg") repeat;
+}
+.composition-Type{
+    margin-top: 0px;
+}
+
+.composition-Attack{
+    margin-right: 33px;
+
+}
+.bordo{
+    border:1px solid black;
+    margin-bottom: 5px;
+}
+
+.composition-seed{
+    display: none;
+}
+
+.composition-position{
+    display: none;
+}
+
+.form-group{
+    margin: 5px 5px 5px 0;
+}
+
+#slotCartaInput{
+    margin: auto;
+}

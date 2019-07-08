@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Acquista Nuove Carte</title>
+</head>
+<body>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script
+        crossorigin="anonymous"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- Optional JavaScript -->
+
+<script src="js/web3.min.js"></script>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item"><a class="btn btn-primary mx-1" href="./SelectHand.html">Crea/Unisci a Partita</a></li>
+                <li class="nav-item"><a class="btn btn-primary mx-1" href="./Game.html">Continua Partita</a></li>
+                <li class="nav-item"><a class="btn btn-primary mx-1" href="./NewCard.html">Ottieni Nuove Carte</a></li>
+                <li class="nav-item"><a class="btn btn-primary mx-1" href="./Collezione.html">Collezione</a></li>
+                <li class="nav-item"><a class="btn btn-primary mx-1" href="./Trade.html">Scambia/Vendi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        acquistare una nuova carta costa 0,05 ether
+        <button class="btn-default btn-vote active" id="buyButton" type="button" value="1">Compra una nuova carta
+        </button>
+    </div>
+
+    <div class="container" id="cardRow">
+        <!-- published composition LOAD HERE -->
+    </div>
+
+
+    <div id="cardTemplate" style="display: none">
+        <div class="col-sm-5 col-md-9 col-lg-10">
+        <!--<div class="col-lg-10">-->
+            <div class="panel panel-default panel-composition" value="">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Title of a composition</h3>
+                </div>
+                <div class="panel-body" id="panelBody">
+                    <strong>Attacco</strong>: <span class="composition-ID">?</span><br/>
+                    <strong>Tipo</strong>: <span class="composition-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur
+                                            </span><br/><br/>
+                    <strong>Img</strong>: <span class="composition-Img">?</span>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="js/BuyDapp.js"></script>
+
+</body>
+</html>

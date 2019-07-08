@@ -1,0 +1,156 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "nomePartita",
+        "type": "string"
+      }
+    ],
+    "name": "getPartita",
+    "outputs": [
+      {
+        "name": "",
+        "type": "string"
+      },
+      {
+        "name": "",
+        "type": "uint8"
+      },
+      {
+        "name": "",
+        "type": "uint8"
+      },
+      {
+        "name": "",
+        "type": "uint32[]"
+      },
+      {
+        "name": "",
+        "type": "uint32[2]"
+      },
+      {
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nomePartita",
+        "type": "string"
+      }
+    ],
+    "name": "removeGame",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "bytes4"
+      }
+    ],
+    "name": "_listaPartite",
+    "outputs": [
+      {
+        "name": "player1",
+        "type": "address"
+      },
+      {
+        "name": "punteggioPlayer1",
+        "type": "uint8"
+      },
+      {
+        "name": "mossaPlayer1",
+        "type": "uint32"
+      },
+      {
+        "name": "moveFlag1",
+        "type": "bool"
+      },
+      {
+        "name": "player2",
+        "type": "address"
+      },
+      {
+        "name": "punteggioPlayer2",
+        "type": "uint8"
+      },
+      {
+        "name": "mossaPlayer2",
+        "type": "uint32"
+      },
+      {
+        "name": "moveFlag2",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nomePartita",
+        "type": "string"
+      },
+      {
+        "name": "mano",
+        "type": "uint32[]"
+      }
+    ],
+    "name": "createGame",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nomePartita",
+        "type": "string"
+      },
+      {
+        "name": "move",
+        "type": "uint32"
+      }
+    ],
+    "name": "sendMove",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "nomePartita",
+        "type": "string"
+      },
+      {
+        "name": "mano",
+        "type": "uint32[]"
+      }
+    ],
+    "name": "joinGame",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
