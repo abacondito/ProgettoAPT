@@ -4,7 +4,13 @@
     <bookmark url="file://$PROJECT_DIR$/js/TradingDapp.js" line="279" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf32109-2fce-4842-ae0b-f658ed9a1374" name="Default Changelist" comment="" />
+    <list default="true" id="faf32109-2fce-4842-ae0b-f658ed9a1374" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.html" beforeDir="false" afterPath="$PROJECT_DIR$/Game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trade.html" beforeDir="false" afterPath="$PROJECT_DIR$/Trade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/TradingDapp.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/TradingDapp.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -36,8 +42,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collezione.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="476">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -46,30 +52,85 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/js/BuyDapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
-              <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+            <state relative-caret-position="306">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#196#744#0" />
+                <element signature="e#957#1285#0" />
+                <element signature="e#1418#2045#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Game.html">
+        <entry file="file://$PROJECT_DIR$/js/TradingDapp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+            <state relative-caret-position="273">
+              <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
               <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#196#744#0" />
+                <element signature="e#4452#4516#0" />
+                <element signature="e#4631#4678#0" />
+                <element signature="e#13288#13383#0" />
+                <element signature="e#17770#18470#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/GameViewDapp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-966">
+              <caret line="23" column="61" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="61" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#196#744#0" />
+                <element signature="n#Partita#0" />
+                <element signature="n#!!block;n#constructor#0;n#Partita#0" />
+                <element signature="n#!!block;n#getImage#0" />
+                <element signature="n#!!block;n#getTypeImage#0" />
+                <element signature="n#!!block;n#getName#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Trade.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+              <folding>
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#1;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#li#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Game.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NewCard.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
@@ -108,7 +169,17 @@
       <find>partita</find>
       <find>showcar</find>
       <find>conferma</find>
+      <find>buttona</find>
+      <find>autor</find>
+      <find>&quot;card&quot;</find>
+      <find>acceptO</find>
+      <find>card</find>
+      <find>0xaf0db5d6eb6fea6f68c1ba267d0e36c5c5977f00</find>
+      <find>mano</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -132,16 +203,16 @@
         <option value="$PROJECT_DIR$/solidity/Arena.abi.json" />
         <option value="$PROJECT_DIR$/solidity/Dex.abi.json" />
         <option value="$PROJECT_DIR$/js/ShowCollectionDapp.js" />
-        <option value="$PROJECT_DIR$/js/TradingDapp.js" />
         <option value="$PROJECT_DIR$/js/BuyDapp.js" />
         <option value="$PROJECT_DIR$/js/CreateJoinGameDapp.js" />
         <option value="$PROJECT_DIR$/js/GameViewDapp.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/Collezione.html" />
         <option value="$PROJECT_DIR$/SelectHand.html" />
+        <option value="$PROJECT_DIR$/NewCard.html" />
+        <option value="$PROJECT_DIR$/js/TradingDapp.js" />
         <option value="$PROJECT_DIR$/Trade.html" />
         <option value="$PROJECT_DIR$/Game.html" />
-        <option value="$PROJECT_DIR$/NewCard.html" />
       </list>
     </option>
   </component>
@@ -151,11 +222,13 @@
     <option name="width" value="1198" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,11 +260,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tipo" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -279,11 +352,12 @@
       <workItem from="1562398344163" duration="40341000" />
       <workItem from="1562493820039" duration="23710000" />
       <workItem from="1562595116842" duration="15879000" />
+      <workItem from="1562654871823" duration="9864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296303000" />
+    <option name="totallyTimeSpent" value="306167000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -296,6 +370,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="530" y="40" width="1198" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -349,25 +424,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Util.js" />
-    <entry file="file://$PROJECT_DIR$/js/TbccDapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#196#744#0" />
-            <element signature="e#3095#4047#0" />
-            <element signature="n#!!block;n#getImage#0" />
-            <element signature="n#!!block;n#getName#0" />
-            <element signature="n#Partita#0" />
-            <element signature="n#!!block;n#makeMove#0;n#Partita#0" />
-            <element signature="n#!!block;n#createCookie#0" />
-            <element signature="n#!!block;n#getCookie#0" />
-            <element signature="n#Deck#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/TbccDapp.js" />
     <entry file="file://$PROJECT_DIR$/img/2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -446,41 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/TradingDapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2771">
-          <caret line="575" column="29" selection-start-line="575" selection-start-column="29" selection-end-line="575" selection-end-column="29" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#196#744#0" />
-            <element signature="e#1133#3569#0" />
-            <element signature="e#2174#2612#0" />
-            <element signature="e#2659#2788#0" />
-            <element signature="e#2833#3096#0" />
-            <element signature="n#!!block;n#Card#0" />
-            <element signature="n#!!block;n#getImage#0" />
-            <element signature="n#!!block;n#getTypeImage#0" />
-            <element signature="n#!!block;n#getName#0" />
-            <element signature="e#4870#5331#0" />
-            <element signature="e#5337#5556#0" />
-            <element signature="e#5562#6279#0" />
-            <element signature="e#6285#7154#0" />
-            <element signature="e#6728#7440#0" />
-            <element signature="e#8576#9003#0" />
-            <element signature="e#9033#9644#0" />
-            <element signature="e#9686#10822#0" />
-            <element signature="n#!!block;n#Sale#0" />
-            <element signature="e#10964#11370#0" />
-            <element signature="e#12142#12705#0" />
-            <element signature="e#12745#13494#0" />
-            <element signature="n#!!block;n#Carda#0" />
-            <element signature="e#14761#15214#0" />
-            <element signature="e#15267#16007#0" />
-            <element signature="e#16041#17145#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/ShowCollectionDapp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -495,17 +517,6 @@
             <element signature="e#2636#2855#0" />
             <element signature="e#2861#3578#0" />
             <element signature="e#3584#4453#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/BuyDapp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#196#744#0" />
           </folding>
         </state>
       </provider>
@@ -531,27 +542,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/GameViewDapp.js">
+    <entry file="file://$PROJECT_DIR$/NewCard.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="201" column="28" selection-start-line="201" selection-start-column="28" selection-end-line="201" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#196#744#0" />
-            <element signature="e#2179#3380#0" />
-            <element signature="e#3434#3561#0" />
-            <element signature="e#3648#4712#0" />
-            <element signature="e#4771#5122#0" />
-            <element signature="n#Partita#0" />
-            <element signature="n#!!block;n#constructor#0;n#Partita#0" />
-            <element signature="n#!!block;n#getImage#0" />
-            <element signature="n#!!block;n#getTypeImage#0" />
-            <element signature="n#!!block;n#getName#0" />
-            <element signature="e#8661#9122#0" />
-            <element signature="e#9128#9347#0" />
-            <element signature="e#9353#10070#0" />
-            <element signature="e#10076#10945#0" />
-          </folding>
+        <state relative-caret-position="274">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -564,10 +558,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Collezione.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="476">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/BuyDapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#196#744#0" />
+            <element signature="e#957#1285#0" />
+            <element signature="e#1418#2045#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/GameViewDapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-966">
+          <caret line="23" column="61" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="61" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#196#744#0" />
+            <element signature="n#Partita#0" />
+            <element signature="n#!!block;n#constructor#0;n#Partita#0" />
+            <element signature="n#!!block;n#getImage#0" />
+            <element signature="n#!!block;n#getTypeImage#0" />
+            <element signature="n#!!block;n#getName#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/TradingDapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="130" lean-forward="true" selection-start-line="130" selection-end-line="130" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#196#744#0" />
+            <element signature="e#4452#4516#0" />
+            <element signature="e#4631#4678#0" />
+            <element signature="e#13288#13383#0" />
+            <element signature="e#17770#18470#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trade.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#li#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,40 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trade.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#li#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#0;n#div#5;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#1;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NewCard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="278">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -21,7 +21,7 @@ window.addEventListener('load', function () {
 
 //creo una variabile globale per l'address del contratto
 var genAddress= '0x88327dec9f8c791a35f70566fea85b9f4854f01c';//indirizzo generatore
-var dexAddress= '0xe49ea494e25ae0f853c55e48164dcb0220443453';//indirizzo Dex
+var dexAddress= '0x40f4cbed4896e029534a6df0cc10eec2844f5741';//indirizzo Dex
 var myaddress = web3.eth.accounts[0];
 let finney=1000000000000000;//costante finney in wei
 
